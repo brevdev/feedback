@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest an idea or enhancement for Brev
+title: "[FEATURE] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your idea! We think you're awesome (:
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The Feature Idea or Problem
+      description: "Describe the new feature you'd like to see, or the problem you're trying to solve. The more detail, the better!"
+      placeholder: "Example: It would be great if instances could auto-restart when I reconnect after being idle."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched the existing issues and have not found a similar feature request.
+          required: true
