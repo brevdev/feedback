@@ -5,7 +5,7 @@ Hello (: We're happy to have you!! This is the official place to submit bug repo
 ### How to Submit Feedback
 
 1.  **Search first:** Before creating a new issue, search existing issues to see if your feedback has already been submitted.
-2.  **Choose a template:** When you create a new issue, pick the corresponding template (e.g., "Bug Report" or "Feature Request").
+2.  **Choose a template:** When you create a new issue, pick the corresponding template (e.g., "Bug report" or "Feature request").
 3.  **Be detailed:** Provide as much detail as possible to help us understand and address your feedback asap.
 
 ### How to Track Your Issue
