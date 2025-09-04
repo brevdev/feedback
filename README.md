@@ -16,5 +16,6 @@ Once you submit an issue, you can track its progress directly on GitHub. Our tea
 
 * **Documentation:** https://docs.nvidia.com/brev/latest/index.html
 * **Website:** https://developer.nvidia.com/brev
+* **Join our Discord!** https://discord.gg/ZWb9pqkf
 
 Thanks for helping make Brev better!
