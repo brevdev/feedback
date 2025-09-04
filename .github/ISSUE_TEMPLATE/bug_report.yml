@@ -1,0 +1,60 @@
+name: Bug Report
+description: Report an issue to help us improve
+title: "[BUG] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for finding and reporting this bug! We appreciate you and think you're awesome (:
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary of the bug
+      description: Provide a summary of the issue.
+      placeholder: "Example: The terminal session disconnects when uploading a large file."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please provide a step-by-step of how to trigger the bug.
+      placeholder: |
+        1. Start a new terminal session.
+        2. Begin uploading a file larger than 500MB.
+        3. Observe the disconnection error.
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected vs actual behavior
+      description: What did you expect to happen, and what happened instead?
+      placeholder: |
+        Expected: The file should upload completely without the session ending.
+        Actual: The session disconnects and the upload fails.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment details
+      description: "Please provide any relevant details about your environment (e.g., Browser, OS, Brev environment configuration)."
+      placeholder: "e.g., Chrome on macOS, using the default Python environment."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched the existing issues and have not found a similar bug report.
+          required: true
+
