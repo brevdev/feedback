@@ -50,11 +50,3 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: Pre-submission Checklist
-      options:
-        - label: I have searched the existing issues and have not found a similar bug report.
-          required: true
-
