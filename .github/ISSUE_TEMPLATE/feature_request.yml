@@ -16,11 +16,3 @@ body:
       placeholder: "Example: It would be great if instances could auto-restart when I reconnect after being idle."
     validations:
       required: true
-
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: Pre-submission Checklist
-      options:
-        - label: I have searched the existing issues and have not found a similar feature request.
-          required: true
