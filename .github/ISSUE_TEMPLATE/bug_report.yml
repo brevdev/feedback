@@ -12,7 +12,6 @@ body:
     id: summary
     attributes:
       label: Summary of the bug
-      description: Provide a summary of the issue.
       placeholder: "Example: The terminal session disconnects when uploading a large file."
     validations:
       required: true
@@ -21,7 +20,6 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
-      description: Please provide a step-by-step of how to trigger the bug.
       placeholder: |
         1. Start a new terminal session.
         2. Begin uploading a file larger than 500MB.
@@ -34,19 +32,17 @@ body:
     id: behavior
     attributes:
       label: Expected vs actual behavior
-      description: What did you expect to happen, and what happened instead?
       placeholder: |
         Expected: The file should upload completely without the session ending.
         Actual: The session disconnects and the upload fails.
     validations:
       required: true
 
-  - type: input
+- type: input
     id: environment
     attributes:
       label: Environment details
-      description: "Please provide any relevant details about your environment (e.g., Browser, OS, Brev environment configuration)."
-      placeholder: "e.g., Chrome on macOS, using the default Python environment."
+      placeholder: "e.g., macOS Sonoma, Brev CLI v0.6, T4 GPU instance with Python 3.10 image"
     validations:
       required: false
 
