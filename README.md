@@ -3,7 +3,7 @@
 Hello (: We're happy to have you!! This is the official place to submit bug reports, feature requests, and general feedback for Brev.
 
 ### How to Submit Feedback
-
+NOTE: This will all be completed under the Issues tab (which you can find in the top horizontal nav bar)
 1.  **Search first:** Before creating a new issue, search existing issues to see if your feedback has already been submitted.
 2.  **Choose a template:** When you create a new issue, pick the corresponding template (e.g., "Bug report" or "Feature request").
 3.  **Be detailed:** Provide as much detail as possible to help us understand and address your feedback asap.
