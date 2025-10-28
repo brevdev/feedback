@@ -16,6 +16,15 @@ body:
       placeholder: "Example: The terminal session disconnects when uploading a large file."
     validations:
       required: true
+      
+  - type: textarea
+    id: summary
+    attributes:
+      label: Environment ID
+      description: Please give us your environment ID so we can look into this. This can be found on your instances page.
+      placeholder: "ID: 6aw40rwzu"
+    validations:
+      required: true
 
   - type: textarea
     id: steps-to-reproduce
@@ -28,7 +37,7 @@ body:
         3. Observe the disconnection error.
       render: markdown
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: behavior
@@ -39,7 +48,7 @@ body:
         Expected: The file should upload completely without the session ending.
         Actual: The session disconnects and the upload fails.
     validations:
-      required: true
+      required: false
 
   - type: input
     id: environment
